@@ -7,5 +7,7 @@
 # }
 
 def select_winner(passengers)
-  passengers.each {|key, value| key == suite_a && value.start_with("A") ? true : false}
+  winner = ""
+  passengers.each {|key, value| key == suite_a && value.start_with("A") ? winner = value : false}
+  winner
 end
