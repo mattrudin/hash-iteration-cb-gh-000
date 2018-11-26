@@ -8,6 +8,6 @@
 
 def select_winner(passengers)
   winner = ""
-  passengers.each {|key, value| :key == "suite_a" && value.start_with("A") ? winner = value : false}
+  passengers.each {|key, value| :key == "suite_a" && value.start_with("A") ? winner = "value" : false}
   winner
 end
